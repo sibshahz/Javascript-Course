@@ -17,11 +17,16 @@
 // console.log(age); // 30
 let iAmYoung = false;
 let myAge = 30;
+let newAge = Number("25");
 let myIncome = 30.19;
 let myName = "Sohail";
-let charc = "c";
+let newName = String("Adam");
 
+console.log("New name is: ", newName);
+let charc = "c";
+console.log("New age: ", newAge);
+console.log("Length of new name is: ", newName.length);
 // const: cannot be reassigned or redeclared
 const country = "Pakistan";
-country = "USA";
+// country = "USA";
 console.log(country); // "Pakistan"
